@@ -1,0 +1,37 @@
+<html>
+
+<head>
+  <title>Aplicativo de Filtro em Tempo Real usando a Rede Neural PoseNet</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+    <link rel="stylesheet" type="text/css" href="style.css">
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.0.0/p5.js"></script>
+  <script src="https://unpkg.com/ml5@0.4.3/dist/ml5.min.js"></script>
+
+
+</head>
+
+<!-- Primeiro vamos adicionar um plano de fundo para nossa página HTML. Para adicionar o atributo
+background dentro da tag body, escreva o nome da imagem no código -->
+<body background="fundo.jpg">
+   <!-- adicione uma tag center e coloque todas as tags HTML: -->
+<center>
+  <!-- adicione uma tag para segurar o título, e isso deve ser adicionado dentro da tag center. -->
+  <h3 class="btn btn-info">Filtro em Tempo Real</h3>
+  <!-- Adicione  tag br, apenas para deixar mais bonito, com uma quebra de linha entre o título e o
+botão Tirar Foto. -->
+  <hr>
+ <!-- adicione um botão que tirar uma foto, também adicione algumas classes de bootstrap e
+uma função onclick. -->
+<button onclick="take_snapshot()" class="btn btn-success">Tirar Foto</button>
+</center>
+<script src="main.js"></script>
+</body>
+
+</html>
+
+
