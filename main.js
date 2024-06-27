@@ -3,7 +3,7 @@ noseY=0;
 
 // Primeiro definimos uma função preload() 
 function preload() {
-  clown_nose = loadImage('https://i.postimg.cc/7ZBcjDqp/clownnose.png');
+  clown_nose = loadImage('https://i.postimg.cc/pV7QVCQc/lolita-de-nariz.png');
 }
 
 // Vamos criar uma função setup() e dentro dela criamos uma canvas (tela)
